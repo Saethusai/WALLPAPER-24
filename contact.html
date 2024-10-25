@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WALL24 - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>WALL24 - Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="nature.html">Nature</a></li>
+                <li><a href="abstract.html">Abstract</a></li>
+                <li><a href="animals.html">Animals</a></li>
+                <li><a href="space.html">Space</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you! Whether you have a question about our wallpapers, need support, or just want to leave feedback, feel free to reach out using the information below or the contact form.</p>
+
+        <!-- Flex container for Contact Info and Follow Us -->
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Our Contact Information</h3>
+                <p><strong>Email:</strong> <a href="mailto:support@wall24.com">support@wall24.com</a></p>
+                <p><strong>Phone:</strong> +91 9491544680</p>
+                <p><strong>Address:</strong> NTR CIRCLE , VIJAYAWADA</p>
+            </div>
+
+            <div class="follow-us ">
+                <h3>Follow Us </h3>
+                <ul class="social-media">
+                    <li><a href="https://facebook.com/wall24">Facebook</a></li>
+                    <li><a href="https://twitter.com/wall24">Twitter</a></li>
+                    <li><a href="https://instagram.com/wall24">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>
+
